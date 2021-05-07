@@ -5,5 +5,5 @@ function clickTekstAdd(){
 }
 
 function clickTekstRemove(){
-    document.getElementById('tekst').innerHTML = ''
+    document.getElementById('tekst').innerHTML = '';
 }
