@@ -4,10 +4,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    border-radius: 50%;
-
 }
-img:hover{
+img#monkey{
+    border-radius: 50%;
+}
+img#monkey:hover{
     width: 110%;
 }
 .navbar{
@@ -22,7 +23,7 @@ img:hover{
 .navbar li{
     float: left;
 }
-.navbar li a{
+.navbar li p{
     display: block;
     background-color: darkcyan;
     padding: 15px;
@@ -34,18 +35,24 @@ img:hover{
     border-bottom: 1px solid black;
 
 }
-.navbar li a:hover{
-    background-color: darkgreen;
+.listProject{
+    list-style-type: none;
+}
+.listProject li p{
+    display: block;
+    background-color: darkcyan;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 
 }
-button{
-    text-align: center;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    background-color: #333;
-    color: white;
-    border: none;
+.navbar li p:hover{
+    background-color: darkgreen;
+
 }
 .content{
     display: block;
@@ -54,6 +61,7 @@ button{
     width: 28%;
 
 }
+
 body{
     color: white;
     background-color: darkslategrey;
