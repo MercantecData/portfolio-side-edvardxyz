@@ -10,6 +10,9 @@ function l(){
 `;}
 
 function projects(){
+    var titleh1 = 'Projekt Liste';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
 
 <ul class=listProject>
@@ -23,6 +26,9 @@ function projects(){
 
 `;}
 function dactyl(){
+    var titleh1 = 'Dactyl-Manuform';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
     Har 3d printet verdens bedste tastatur og lavet alt indmaden <br>
     Det var sku sjovt at lodde nonstop 6 timer ca xD <br>
@@ -37,6 +43,9 @@ function dactyl(){
 
 `;}
 function eth(){
+    var titleh1 = 'Eth miner';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
     Minede Eth et lille stykke tid, med 2 x 580 rx.<br>
 
@@ -48,6 +57,9 @@ function eth(){
 
 `;}
 function lib(){
+    var titleh1 = 'Bibliotek';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
 
     Har lige lavet en biblioteksprojekt i C#, da vi skulle lære OOP.
@@ -60,6 +72,9 @@ function lib(){
 
 `;}
 function _6502(){
+    var titleh1 = '6502';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
 
     Har fulgt Ben Eaters 6502 tutorial på youtube.
@@ -76,6 +91,9 @@ function _6502(){
 
 `;}
 function Libreboot(){
+    var titleh1 = 'Libreboot';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
 
     Engang købte jeg 15 T500 og T400 thinkpads, som jeg skilte ad og overskrev deres bios chip med en libreboot rom.<br>
@@ -90,6 +108,9 @@ function Libreboot(){
 
 `;}
 function Chess(){
+    var titleh1 = 'Skak';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
     document.getElementById('main').innerHTML = `
 
     Har lavet 2 forskellige skak programmer i C#
@@ -109,6 +130,9 @@ function thispjr(){
 }
 
 function contact(){
+    var titleh1 = 'Kontakt';
+    document.title = titleh1;
+    document.getElementById('h1').innerHTML = titleh1;
 
     document.getElementById('main').innerHTML = `
 call me on: 999999999999999 <br>
